@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(45deg, #81BCD4, #43626E);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size:2vh;
+}
+
+.WholePage {
+max-width:1100px;
+height:100vh;
+margin: auto;
+}
+.MasterDetail {
+width:100%;
+height:87%;
+border: 2px solid black;
+background: linear-gradient(0, #81BCD4,#90D3ED);
+border-radius: 2vh;
+box-shadow: 0 .25rem 2rem 0 rgba(0,0,0,0.2);
+}
+.Master {
+width:20%;
+float:left;
+height:100%;
+text-align:center;
+padding:1vh;
+padding-top: 3vh;
+}
+.Detail {
+width:80%;
+float:right;
+height:100%;
+padding: 2vh;
+
+}
+.RoverCard {
+height:100%;
+width:100%;
+text-align:center;
+}
+.CameraSwitcher {
+min-height:11vh;
+width:95%;
+margin:auto;
+padding:.5vh;
+text-align:center;
+}
+.list-group {
+	display: inline-block;
+	justify-content: space-between;
+	margin:auto;
+}
+.cameraButton {
+display: inline-block;
+	padding:.25vh;
+}
+.roverButton {
+	padding:1vh;
+}
+ .btn{
+	font-size:1.75vh;;
+}
+.table-striped {
+	margin:auto;
+	width:90%;
+}
+.form-group {
+	margin:auto;
+	width:75%;
+	padding:1vh;
+	font-size:2vh;
+}
+
+.photoItem {
+	padding-bottom:10px;
+}
+
+img {
+	height:35vh;
+	max-width:100%;
+	width:auto;
+	margin:auto;
+	text-align:center;
+	border: 2px solid black;
+	border-radius: 2vh;
+	box-shadow: 0 .25rem 2rem 0 rgba(0,0,0,0.2);
+}
+.photoContainer {
+	height: 40vh;
+	overflow: scroll;
+	padding:1vh;
+	text-align:center;
+}
+h2 {
+ font-size:2.5vh;
+ font-weight :600;
+}
+h1 {
+ font-size:4vh;
+ font-weight :800;
+ color:white;
+
+}
+h3 {
+font-size:2.5vh;
+font-weight :400;
+}
+h4 {
+font-size:1.25em;;
+font-weight :200;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+p {
+	font-size:.75em;
+}

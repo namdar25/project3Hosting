@@ -1,0 +1,29 @@
+{
+  "homepage": "https://namdar.github.io/project3Hosting",
+  "name": "p3-namdar25",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "bootstrap": "^4.0.0",
+    "gh-pages": "^1.1.0",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
